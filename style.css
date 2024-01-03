@@ -6,3 +6,26 @@
   box-sizing: border-box;
   font-family: 'Poppins';
 }
+
+body {
+  background: #2D3250;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10%;
+  align-items: center;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 30px;
+  color: antiquewhite;
+  text-decoration: none;
+  font-weight: 600;
+}
